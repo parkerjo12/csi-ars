@@ -1,0 +1,120 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #eee;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+header #wrapper {width:960px;margin:auto;padding:5px 0 0 0;overflow:auto; background-color: #496E9E;}
+#container {width:960px;margin:auto;overflow:auto; background-color: #BFCBDC;}
+#footer-container {width:960px; margin:auto; overflow:auto; background-color: #BFCBDC; font-size: 95%; text-align: center;}
+#footer-container a, a.selected {color: #232323; text-decoration: none;}
+
+#content-wrapper { background-color: #fff; }
+#content { margin: 10px; }
+#wrapper { width: 960px; margin: 0 auto; }
+#wrapper header, a, a.selected { color: #fff; text-decoration: none;}
+
+#brand { font-weight: bold; font-size: 160%; }
+
+nav { margin-top: 10px; text-align: center;}
+nav li { display: inline; margin-right: 10px; font-size: 125%; }
+nav a { text-decoration: none; color: white; }
+nav a.selected { color: white; }
+
+.logo { font-weight: bold; font-size: 400%; text-align: center; text-shadow: 5px 1px 3px #787575; color: #fff;}
+
+.sideSection {
+	float: left;
+	margin: 10px;
+	width: 325px;
+}
+.sideHeader {
+	background-color: #496E9E;
+	padding: 10px;
+	color: #fff;
+}
+.sideContent {
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #000;
+}
+	.sideContent p {
+		padding: 0px 25px;
+	}
+
+.mainSection {
+	float:left;
+	margin: 10px;
+	width: 595px; 
+}
+.mainHeader {
+	background-color: #496E9E;
+	padding: 10px;
+	color: #fff;
+}
+.mainContent {
+	border: 1px solid #000;
+}
+	.mainContent p {
+		padding: 0px 25px;
+	}
+.subText {
+	font-size: 90%;
+	font-style: italic;
+}

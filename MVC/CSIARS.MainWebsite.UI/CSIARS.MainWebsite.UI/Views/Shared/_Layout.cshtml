@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>@ViewBag.Title</title>
+		@Styles.Render("~/Content/css")
+		@Scripts.Render("~/bundles/modernizr")
+		@Scripts.Render("~/scripts/jquery-1.7.1.js")
+		@Scripts.Render("~/scripts/jquery-ui-1.8.20.js")
+	</head>
+	<body>
+		<header>
+			<div id="wrapper">
+				<div class="logo"><a href="@Url.Action("Index")">CSI-ARS</a></div>
+				<nav>
+					<ul>
+						<li><a href="@Url.Action("AIRSProfile")">Profile</a></li>
+						<li><a href="@Url.Action("Investigation")">Investigation</a></li>
+						<li><a href="@Url.Action("Reconstruction")">Reconstruction</a></li>
+						<li><a href="@Url.Action("Implementation")">Implementation</a></li>
+						<li><a href="@Url.Action("Animation")">Animation</a></li>
+						<li><a href="@Url.Action("Contact")">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			@RenderBody()
+		</div>
+		<footer>
+			<div id="footer-container">
+				CSI-AIRS :: PO Box 663 New Castle, IN 47362 :: <a href="tel:765.545.0262">765.545.0262</a> :: <a href="mailto:gmetroka@csi-ars.com">gmetroka@csi-ars.com</a>
+			</div>
+		</footer>
+		@RenderSection("scripts", required: false)
+	</body>
+</html>

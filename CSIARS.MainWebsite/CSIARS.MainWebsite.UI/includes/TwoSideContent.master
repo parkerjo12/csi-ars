@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/includes/Default.Master" AutoEventWireup="true" CodeBehind="TwoSideContent.master.cs" Inherits="CSIARS.MainWebsite.UI.includes.TwoSideContent" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="defaultScript" runat="server">
+	<asp:ContentPlaceHolder runat="server" ID="head"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ContentPlaceHolderID="containerContent" runat="server">
+	<div class="sideSection">
+		<div class="sideHeader">
+			<span id="sideTitleTop"></span>
+		</div>
+		<div class="sideContent">
+			<asp:ContentPlaceHolder ID="sideContentTop" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+
+		<div class="sideHeader">
+			<span id="sideTitleBottom"></span>
+		</div>
+		<div class="sideContent">
+			<asp:ContentPlaceHolder ID="sideContentBottom" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</div>
+
+	<div class="mainSection">
+		<div class="mainHeader">
+			<span id="mainTitle"></span>
+		</div>
+		<div class="mainContent">
+			<asp:ContentPlaceHolder ID="mainContent" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</div>
+</asp:Content>
