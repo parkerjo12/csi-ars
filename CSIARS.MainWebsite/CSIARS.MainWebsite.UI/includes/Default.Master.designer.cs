@@ -22,6 +22,15 @@ namespace CSIARS.MainWebsite.UI.includes {
         protected global::System.Web.UI.HtmlControls.HtmlHead Head1;
         
         /// <summary>
+        /// head control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        
+        /// <summary>
         /// mainForm control.
         /// </summary>
         /// <remarks>
