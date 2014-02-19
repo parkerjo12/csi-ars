@@ -12,16 +12,25 @@
 	</p>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="sideContentBottom" runat="server">
-	<div style="text-align: center; valign: top;">
-		<span style="padding: 0 5px 0 5px;">
+	<div class="cyclePrev">&lt;&lt;Prev</div>
+	<div class="cycleContent">
+		<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout=0 data-cycle-prev=".cyclePrev" data-cycle-next=".cycleNext" data-cycle-slides="> a">
 			<a href="images/P1019504.jpg" rel="lightbox[recon]">
 				<img src="images/P1019504_thumb.jpg" style="width: 200px" />
 			</a>
-		</span>
-		<p class="subText">
-			(Click to enlarge)
-		</p>
+			<a href="images/recon_diagram.jpg" rel="lightbox[recon]">
+				<img src="images/recon_diagram_thumb.jpg" style="width: 200px" />
+			</a>
+			<a href="images/DSC_0155.jpg" rel="lightbox[recon]">
+				<img src="images/DSC_0155_thumb.jpg" style="width: 200px" />
+			</a>
+			<a href="images/martin004.jpg" rel="lightbox[recon]">
+				<img src="images/martin004_thumb.jpg" style="width: 200px" />
+			</a>
+			<p class="cycleFooter">(Click to enlarge)</p>
+		</div>
 	</div>
+	<div class="cycleNext">Next&gt;&gt;</div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="mainContent" runat="server">
 	<p>

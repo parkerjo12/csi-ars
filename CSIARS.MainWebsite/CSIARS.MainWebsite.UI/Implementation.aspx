@@ -3,9 +3,21 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 	<script type="text/javascript">
 		$(function () {
-			csiars.PageManager.register(new csiars.Page({ name: "Implementation", title: "CSI-ARS :: Implementation", mainTitle: "CSI-ARS Implementation", sideTitleTop: "CSI-ARS Implementation" }));
+			csiars.PageManager.register(new csiars.Page({ name: "Implementation", title: "CSI-ARS :: Implementation", mainTitle: "CSI-ARS Implementation", sideTitleTop: "Photos" }));
 		});
 	</script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="sideContentTop" runat="server">
+	<div class="cyclePrev"></div>
+	<div class="cycleContent">
+		<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout=0 data-cycle-prev=".cyclePrev" data-cycle-next=".cycleNext" data-cycle-slides="> a">
+			<a href="images/imp_diagram.jpg" rel="lightbox[imp]">
+				<img src="images/imp_diagram_thumb.jpg" style="width: 200px" />
+			</a>
+			<p class="cycleFooter">(Click to enlarge)</p>
+		</div>
+	</div>
+	<div class="cycleNext"></div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="mainContent" runat="server">
 	<p>

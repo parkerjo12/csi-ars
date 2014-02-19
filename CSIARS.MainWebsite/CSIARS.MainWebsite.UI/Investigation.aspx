@@ -13,16 +13,19 @@
 	</p>
 </asp:Content>
 <asp:Content ID="Content7" ContentPlaceHolderID="sideContentBottom" runat="server">
-	<div style="text-align: center; valign: top;">
-		<span style="padding: 0 5px 0 5px;">
+	<div class="cyclePrev">&lt;&lt;Prev</div>
+	<div class="cycleContent">
+		<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout=0 data-cycle-prev=".cyclePrev" data-cycle-next=".cycleNext" data-cycle-slides="> a">
 			<a href="images/DSC_0014.jpg" rel="lightbox[investigate]">
 				<img src="images/DSC_0014_thumb.jpg" style="width: 200px" />
 			</a>
-		</span>
-		<p class="subText">
-			(Click to enlarge)
-		</p>
+			<a href="images/DSC_0012c.jpg" rel="lightbox[investigate]">
+				<img src="images/DSC_0012c_thumb.jpg" style="width: 200px" />
+			</a>
+			<p class="cycleFooter">(Click to enlarge)</p>
+		</div>
 	</div>
+	<div class="cycleNext">Next&gt;&gt;</div>
 </asp:Content>
 <asp:Content ID="Content6" ContentPlaceHolderID="mainContent" runat="server">
 	<p>

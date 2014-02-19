@@ -25,7 +25,7 @@
 		<span class="contactLabel">Phone:</span><span><a href="tel:765.545.0262">765.545.0262</a></span>
 	</p>
 	<p>
-		<span class="contactLabel">E-mail:</span><span><a href="mailto:gary.metroka@gmail.com">gary.metroka@gmail.com</a> / <a href="mailto:gmetroka@csi-ars.com">gmetroka@csi-ars.com</a></span>
+		<span class="contactLabel">E-mail:</span><span><a href="mailto:gmetroka@csi-ars.com">gmetroka@csi-ars.com</a></span>
 	</p>
 	<p>
 		<span class="contactLabel">Fax:</span><span>765.529.4501<span class="subText">(Please Call Before Sending Fax)</span></span>
