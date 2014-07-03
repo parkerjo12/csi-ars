@@ -35,7 +35,6 @@
 		for later proceedings if needed.
 		<ul>
 			<li>Measurements with laser technology</li>
-			<li>Digital photos and/or 35mm film</li>
 			<li>Digital Video</li>
 			<li>Taped statements when requested</li>
 		</ul>

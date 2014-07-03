@@ -3,9 +3,8 @@ c:\users\parkerjo\documents\visual studio 2012\Projects\CSIARS.MainWebsite.UI\CS
 c:\users\parkerjo\documents\visual studio 2012\Projects\CSIARS.MainWebsite.UI\CSIARS.MainWebsite.UI\obj\Debug\CSIARS.MainWebsite.UI.csprojResolveAssemblyReference.cache
 c:\users\parkerjo\documents\visual studio 2012\Projects\CSIARS.MainWebsite.UI\CSIARS.MainWebsite.UI\obj\Debug\CSIARS.MainWebsite.UI.dll
 c:\users\parkerjo\documents\visual studio 2012\Projects\CSIARS.MainWebsite.UI\CSIARS.MainWebsite.UI\obj\Debug\CSIARS.MainWebsite.UI.pdb
-C:\Projects\Misc\CSI-ARS\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\bin\CSIARS.MainWebsite.UI.dll.config
-C:\Projects\Misc\CSI-ARS\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\bin\CSIARS.MainWebsite.UI.dll
-C:\Projects\Misc\CSI-ARS\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\bin\CSIARS.MainWebsite.UI.pdb
-C:\Projects\Misc\CSI-ARS\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\obj\Debug\CSIARS.MainWebsite.UI.csprojResolveAssemblyReference.cache
-C:\Projects\Misc\CSI-ARS\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\obj\Debug\CSIARS.MainWebsite.UI.dll
-C:\Projects\Misc\CSI-ARS\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\obj\Debug\CSIARS.MainWebsite.UI.pdb
+C:\Projects\Misc\csi-ars\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\bin\CSIARS.MainWebsite.UI.dll.config
+C:\Projects\Misc\csi-ars\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\bin\CSIARS.MainWebsite.UI.dll
+C:\Projects\Misc\csi-ars\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\bin\CSIARS.MainWebsite.UI.pdb
+C:\Projects\Misc\csi-ars\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\obj\Debug\CSIARS.MainWebsite.UI.dll
+C:\Projects\Misc\csi-ars\CSIARS.MainWebsite\CSIARS.MainWebsite.UI\obj\Debug\CSIARS.MainWebsite.UI.pdb
