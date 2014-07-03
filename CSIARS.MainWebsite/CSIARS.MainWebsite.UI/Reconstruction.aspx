@@ -12,7 +12,7 @@
 	</p>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="sideContentBottom" runat="server">
-	<div class="cyclePrev">&lt;&lt;Prev</div>
+	<div class="cyclePrev">&lt;&lt;</div>
 	<div class="cycleContent">
 		<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout=0 data-cycle-prev=".cyclePrev" data-cycle-next=".cycleNext" data-cycle-slides="> a">
 			<a href="images/P1019504.jpg" rel="lightbox[recon]">
@@ -30,7 +30,7 @@
 			<p class="cycleFooter">(Click to enlarge)</p>
 		</div>
 	</div>
-	<div class="cycleNext">Next&gt;&gt;</div>
+	<div class="cycleNext">&gt;&gt;</div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="mainContent" runat="server">
 	<p>

@@ -83,6 +83,7 @@
     <Content Include="includes\site.js" />
     <Content Include="Investigation.aspx" />
     <Content Include="Profiles.aspx" />
+    <Content Include="Rates.aspx" />
     <Content Include="Reconstruction.aspx" />
     <Content Include="packages.config" />
     <Content Include="includes\Default.Master" />
@@ -170,6 +171,13 @@
       <DependentUpon>Profiles.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rates.aspx.cs">
+      <DependentUpon>Rates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rates.aspx.designer.cs">
+      <DependentUpon>Rates.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Reconstruction.aspx.cs">
       <DependentUpon>Reconstruction.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
